@@ -1,0 +1,19 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "A request header parser microservice full-stack app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e * server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Melina Montelongo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.21"
+  }
+}
