@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>URL Shortener Microservice | freeCodeCamp.org</title>
+  <link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>URL Shortener Microservice</h1>
+    <main>
+      <section class="form-container">
+        <form action="api/shorturl" method="POST">
+          <fieldset>
+            <legend>URL Shortener</legend>
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+            <input type="submit" value="POST URL" />
+          </fieldset>
+        </form>
+      </section>
+      <section class="instructions-container">
+        <p>Enter a valid URL and you'll get it's shortened version as a response:</p>
+          <code>{"original_url":"https://www.google.com","short_url":1}</code>
+        <p>From that endpoint just add the "short_url" value and you'll be redirected there:</p>
+          <code>[this_url]/api/shorturl/1 => https://www.google.com/</code>
+      </section>
+    </main>
+    <footer>
+      <p> Built for <a href="https://www.freecodecamp.org/">freeCodeCamp</a>'s Back End and APIs Certification.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
