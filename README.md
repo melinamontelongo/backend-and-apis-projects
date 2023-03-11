@@ -11,4 +11,4 @@ Exercise Tracker: https://exercise-tracker--melinamontelong.repl.co/
 
 File Metadata Microservice: https://file-metadata--melinamontelong.repl.co/
 
-*Non-responsive interface with very basic styling. The focus was set on the server side part.
+*Non-responsive interface with very basic styling. The focus was set on the server side functionalities.
