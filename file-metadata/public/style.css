@@ -1,0 +1,55 @@
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(202, 202, 202);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+code{
+    background-color: rgb(231, 231, 231);
+    width: fit-content;
+}
+
+section{
+    margin: auto;
+}
+
+.form-container{
+    width: fit-content;
+}
+
+.instructions-container{
+    width: 80%;
+}
+
+footer{
+    position: fixed;
+    top: 90%;
+}
+
+.view{
+    border: 1px solid grey;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#button{
+    padding: 10px;
+    
+}
